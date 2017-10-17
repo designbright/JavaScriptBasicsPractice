@@ -216,23 +216,21 @@ if({}){
 }
 // A: True!
 
+// 28.
+if({name: "Yehuda Katz"}){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: True!
 
-// // 28.
-// if({name: "Yehuda Katz"}){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 29.
-// if(new Date()){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// A:
+// 29.
+if(new Date()){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: True!
 
 
 // 30.
