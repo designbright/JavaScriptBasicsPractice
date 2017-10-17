@@ -88,54 +88,56 @@ console.log(typeof myString);
 console.log(typeof myBoolean);
 console.log(typeof myUndefined);
 
+// For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
-// // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
-//
-// // 11.
-// let x = (false == 0);
-// // A.
-//
-//
-// // 12.
-// let y = (false == "");
-// // A.
-//
-//
-// // 13.
-// let z = (0 == "");
-// // A.
-//
-//
-// // 14.
-// let a = (null == null);
-// // A.
-//
-//
-// // 25.
-// let b = (undefined == undefined);
-// // A.
-//
-//
-// // 16.
-// let c = (undefined == null);
-// // A.
-//
-//
-// // 17.
-// let d = (null == false);
-// // A.
-//
-//
-// // 18.
-// let e = (NaN == null);
-// // A.
-//
-//
-// // 19.
-// let f = (NaN == NaN);
-// // A.
-//
-//
+// 11.
+let x = (false == 0);
+// A. true
+console.log(x);
+console.log(typeof x);
+
+
+// 12.
+let y = (false == "");
+// A. true
+console.log(y);
+
+// 13.
+let z = (0 == "");
+// A. true
+console.log(z);
+
+// 14.
+let a = (null == null);
+// A. true
+console.log(a);
+
+// 15.
+let b = (undefined == undefined);
+// A. true
+console.log(b);
+
+// 16.
+let c = (undefined == null);
+// A. true
+console.log(c);
+
+
+// 17.
+let d = (null == false);
+// A. false
+console.log(d);
+
+// 18.
+let e = (NaN == null);
+// A. false
+console.log(e);
+
+// 19.
+let f = (NaN == NaN);
+// A.
+
+
 // // 20.
 // // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
 // // Use the variable `thirsty` as part of your conditional expression.
