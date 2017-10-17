@@ -135,91 +135,88 @@ console.log(e);
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. false
+console.log(f);
+
+// 20.
+// Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
+// Use the variable `thirsty` as part of your conditional expression.
+// A: I'm parched!
+let thirsty = true;
+
+  if (thirsty === true){
+  console.log("I'm parched!");
+} else {
+  console.log("I've had enough to drink.");
+}
+
+// For questions 21 - 29 list which statement will be logged.
+
+// 21.
+let p;
+
+if(p){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: False!
+
+// 22.
+if(""){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: False!
 
 
-// // 20.
-// // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
-// // Use the variable `thirsty` as part of your conditional expression.
-// // A:
-// let thirsty = true;
-//
-// {
-//   console.log("I'm parched!");
-// } else {
-//   console.log("I've had enough to drink.");
-// }
-//
-// // For questions 21 - 29 list which statement will be logged.
-//
-// // 21.
-// let x;
-//
-// if(x){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 22.
-// if(""){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 23.
-// // this expression will set x to NaN
-// let x = 1 * undefined;
-//
-// if(x){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 24.
-// if(false){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 25.
-// if(-5 && 5){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 26.
-// if("Hello World!"){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
-// // 27.
-// if({}){
-// 	console.log("True!");
-// } else {
-// 	console.log("False!");
-// }
-// // A:
-//
-//
+// 23.
+// this expression will set x to NaN
+let j = 1 * undefined;
+
+if(j){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: False!
+
+// 24.
+if(false){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: False!
+
+
+// 25.
+if(-5 && 5){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: True!
+
+
+// 26.
+if("Hello World!"){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: True!
+
+// 27.
+if({}){
+	console.log("True!");
+} else {
+	console.log("False!");
+}
+// A: True!
+
+
 // // 28.
 // if({name: "Yehuda Katz"}){
 // 	console.log("True!");
